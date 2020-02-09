@@ -44,4 +44,7 @@
         git clone https://github.com/your_account/stepic_web_project.git /home/box/web
     bash /home/box/web/init.sh
 
-
+- Создаем `init.sh` (`touch init.sh`), прописываем ему права 
+на выполнение (`chmod a+x init.sh`), создаем папку `etc` (`mkdir etc`), 
+копируем туда дефолтный конфиг, он поможет в дальнейшем 
+(`cp /etc/nginx/nginx.conf ~/web/etc`).
